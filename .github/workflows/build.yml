@@ -1,5 +1,6 @@
 name: Build kernel deb packages
 on: push
+    workflow_dispatch
 
 jobs:
   build:
